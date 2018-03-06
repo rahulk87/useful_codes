@@ -31,3 +31,5 @@ getBarcode <- function(uuid, legacy = TRUE){
 getBarcode("ffa5fff7-6301-4cd8-8e63-a4d8294d1b0e", legacy = TRUE)
 getBarcode("D04B63DE-03BA-4A63-92CA-D8054C3E238C", legacy = TRUE)
 getBarcode(c("D04B63DE-03BA-4A63-92CA-D8054C3E238C","ffa5fff7-6301-4cd8-8e63-a4d8294d1b0e"), legacy = TRUE)
+
+source "https://support.bioconductor.org/p/89021/"
